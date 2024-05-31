@@ -44,9 +44,16 @@
         {
             "plan": "heroku-postgresql",
             "options": {
-                "version": "13"
+                "version": "15"
             }
         }
     ],
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "standard-1x"
+        }
+    }
+}
     "stack": "heroku-22"
 }
